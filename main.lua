@@ -1,8 +1,6 @@
+Object = require("libraries/classic/classic")
+require 'objects/Test'
+
 function love.load()
-end
-
-function love.update(dt)
-end
-
-function love.draw()
+    test_instance = Test()
 end
